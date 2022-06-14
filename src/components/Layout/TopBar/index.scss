@@ -1,0 +1,26 @@
+@import "../../../styles/variabels/variabels.scss";
+.topbar {
+  width: 95vw;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 30px;
+
+  button {
+    width: 6rem;
+    height: 3rem;
+    font-size: $text-m1;
+    font-weight: 400;
+    background-color: $button-background-color;
+    border-radius: 16px;
+    cursor: pointer;
+    border: 0;
+  }
+
+  button:hover {
+    box-shadow: inset;
+    border-radius: 50px;
+  }
+}

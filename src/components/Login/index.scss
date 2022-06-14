@@ -1,0 +1,88 @@
+@import "../../styles/variabels/variabels.scss";
+
+.login-container {
+  position: relative;
+  top: 15%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: $text-m1;
+
+  h1,
+  h2 {
+    font-weight: 400;
+    margin: 0.5rem;
+  }
+
+  h1 {
+    font-size: $text-l3;
+  }
+
+  h2 {
+    font-size: $text-m1;
+  }
+
+  .login-form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    input,
+    textarea {
+      padding: $text-m1;
+      margin: 10px 0;
+      background-color: $input-background-color;
+      color: $input-background-color;
+      border: 0;
+      border-radius: 10px;
+      font-size: $text-m1;
+      font-family: inherit;
+      color: $input-text-color;
+      font-size: inherit;
+      font-size: $text-m1;
+      width: 50%;
+    }
+
+    ::placeholder {
+      color: $input-text-color;
+      opacity: 0.8; /* Firefox */
+      font-size: $text-s1;
+    }
+
+    :-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: $input-text-color;
+      opacity: 0.8;
+      font-size: $text-s3;
+    }
+
+    ::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: $input-text-color;
+      opacity: 0.8;
+      font-size: $text-s3;
+    }
+
+    p {
+      font-size: $text-s1;
+      font-weight: 600;
+    }
+
+    button {
+      width: 55%;
+      height: 3rem;
+      font-size: $text-m1;
+      font-weight: 400;
+      background-color: $button-background-color;
+      border-radius: 16px;
+      cursor: pointer;
+      border: 0;
+    }
+  }
+}

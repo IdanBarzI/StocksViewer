@@ -1,0 +1,52 @@
+@use "../abstract/colors" as *;
+
+body {
+  padding: 0;
+  margin: 0;
+  margin: 0;
+  font: 300 11px/1.4 "Helvetica Neue", sans-serif;
+  font-family: "Lexend Deca";
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  display: block;
+}
+
+html {
+  font-size: 16px;
+}
+
+.dark {
+  .login-headers {
+    color: $dark-primary-color;
+    transition: 0.3s;
+  }
+
+  .page-background {
+    background-color: $dark-page-background-color;
+    transition: 0.3s;
+  }
+
+  .error {
+    color: $dark-error;
+    transition: 0.3s;
+  }
+}
+
+.light {
+  .login-headers {
+    color: $light-primary-color;
+    transition: 0.3s;
+  }
+
+  .page-background {
+    background-color: $light-page-background-color;
+    transition: 0.3s;
+  }
+
+  .error {
+    color: $light-error;
+    transition: 0.3s;
+  }
+}
