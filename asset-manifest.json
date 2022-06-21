@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/StocksViewer/static/css/main.4b4431bd.css",
-    "main.js": "/StocksViewer/static/js/main.2ea134eb.js",
+    "main.js": "/StocksViewer/static/js/main.9e946910.js",
     "static/media/logo.svg": "/StocksViewer/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/StocksViewer/index.html",
     "static/media/Vectors.svg": "/StocksViewer/static/media/Vectors.9ca87e0768686f9d1d8c2eab119c598d.svg",
     "main.4b4431bd.css.map": "/StocksViewer/static/css/main.4b4431bd.css.map",
-    "main.2ea134eb.js.map": "/StocksViewer/static/js/main.2ea134eb.js.map"
+    "main.9e946910.js.map": "/StocksViewer/static/js/main.9e946910.js.map"
   },
   "entrypoints": [
     "static/css/main.4b4431bd.css",
-    "static/js/main.2ea134eb.js"
+    "static/js/main.9e946910.js"
   ]
 }
